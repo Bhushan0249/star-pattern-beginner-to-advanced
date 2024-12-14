@@ -1,0 +1,61 @@
+
+public class pattern6 {
+
+//	     *
+//	   * * 
+//	 * * * 
+// * * * * 
+//	 * * * 
+//     * * 
+//	     *
+
+	public static void main(String[] args) {
+
+		for (int i = 1; i <= 4; i++) {
+
+			for (int j = 3; j >= i; j--) {
+
+//				 - - - 
+//				 - -  
+//				 -
+				// this is used to first space print.
+				System.out.print(" " + " ");
+
+			}
+			for (int j = 1; j <= i; j++) {
+//				 - - - *
+//				 - - * * 
+//				 - * * *
+//				 * * * * 
+				// used to print the star.
+				System.out.print("*" + " ");
+
+			}
+			System.out.println();
+			// this sop used to go to next line.
+
+		}
+		for (int i = 1; i <= 4; i++) {
+
+			for (int j = 1; j <= i; j++) {
+				// -
+				// - -
+				// - - -
+				// used to print space.
+				System.out.print(" " + " ");
+			}
+			for (int j = 3; j >= i; j--) {
+				// - * * *
+				// - - * *
+				// - - - *
+				// used to print star.
+				System.out.print("*" + " ");
+
+			}
+			System.out.println();
+
+		}
+
+	}
+
+}
