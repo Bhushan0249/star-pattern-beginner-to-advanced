@@ -1,4 +1,4 @@
-🌟 Star Patterns in Array
+🌟 Star Patterns
 
 
 Welcome to the Star Patterns in  repository!
