@@ -1,0 +1,40 @@
+
+public class pattern4 {
+
+//	      *
+//	    * *
+//	  * * * 
+//	* * * * 
+
+	// first for loop work as rows.
+	// inner for loop work as colums.
+	// this pattern used total 3 loops.
+
+	public static void main(String[] args) {
+
+		for (int i = 1; i <= 4; i++) {
+
+			for (int j = 3; j >= i; j--) {
+				// used this for loop print space.
+				// - - -
+				// - -
+				// -
+				System.out.print(" " + " ");
+			}
+			for (int j = 1; j <=i; j++) {
+				System.out.print("*" + " ");
+
+//				       *
+//				     * *
+//				   * * *
+//				 * * * *
+
+				// this for loop used to print star.
+
+			}
+			System.out.println();
+		}
+
+	}
+
+}
