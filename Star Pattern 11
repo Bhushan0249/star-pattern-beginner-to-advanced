@@ -1,0 +1,62 @@
+
+public class pattern11 {
+
+	// reverse pyramid pattern . this is a 1st way.
+
+//	  * * * * * * * 
+//	    * * * * * 
+//	      * * * 
+//	        * 
+
+	// this logic using 3 for loop.
+// it,s better than 1st.
+
+	public static void main(String[] args) {
+
+		for (int i = 1; i <= 4; i++) {
+
+			for (int j = 2; j <= i; j++) {
+
+				// used to print space.
+
+				// -
+				// - -
+				// - - -
+				System.out.print("-" + " ");
+
+			}
+
+			for (int j = 4; j >= i; j--) {
+
+				// print the star.
+
+				// * * * *
+				// - * * *
+				// - - * *
+				// - - - *
+
+				System.out.print("*" + " ");
+
+			}
+			for (int j = 3; j >= i; j--) {
+
+				// it,s also used to star print.
+
+				// * * * * * * *
+				// - * * * * *
+				// - - * * *
+				// - - - *
+
+				System.out.print("*" + " ");
+//	first check your output is same.if same, 
+// than we remove [-] and add " " space and check your final output.
+
+			}
+			System.out.println();
+// use to go to next line.		
+
+		}
+
+	}
+
+}
