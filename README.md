@@ -1,7 +1,7 @@
 🌟 Star Patterns
 
 
-Welcome to the Star Patterns in  repository!
+Welcome to the Star Patterns  repository!
 
 
 This project is designed to help students and beginner programmers learn about creating star patterns using programming logic.
