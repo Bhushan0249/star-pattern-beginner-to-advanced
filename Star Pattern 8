@@ -1,0 +1,56 @@
+
+public class pattern8 {
+	
+// it,s same task as a class pattern7, but using another logic.
+// same example but difference logic.
+
+//	    *
+//	   * *
+//	  * * *
+//	 * * * *
+
+	public static void main(String[] args) {
+
+		for (int i = 1; i <= 4; i++) {
+
+			for (int j = 4; j >= 1; j--) {
+
+				if (j > i) {
+
+					// print space.
+					System.out.print("-");
+					// - - -
+					// - -
+					// -
+					// false.
+
+				} else {
+					System.out.print("+*");
+					// - - - + *
+					// - - + * + *
+					// - + * + * + *
+					// + * + * + * + *
+
+//   check your output as same.
+
+//	if your output same.
+
+// than you can remove [ - ] and [ + ] and add [ " " ] space. and check output.
+
+//				        *
+//					   * *
+//					  * * *
+//					 * * * *	
+
+//	 it is your final output.....				
+
+				}
+			}
+			System.out.println();
+//	this sop used to go to next line. 	
+
+		}
+
+	}
+
+}
