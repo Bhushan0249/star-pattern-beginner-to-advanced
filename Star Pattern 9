@@ -1,0 +1,61 @@
+
+public class pattern9 {
+
+//          * 
+//        * * * 
+//      * * * * * 
+//    * * * * * * * 
+
+// create this pattern you need to 4 for loop.	
+
+	public static void main(String[] args) {
+
+		// print the rows.
+		for (int i = 1; i <= 4; i++) {
+
+			for (int j = 4; j > i; j--) {
+				// use to print space.
+
+				// - - -
+				// - -
+				// -
+
+				System.out.print("-" + " ");
+			}
+			for (int j = 1; j <= i; j++) {
+				// use to print star.
+
+				// - - - *
+				// - - * *
+				// - * * *
+				// * * * *
+
+				System.out.print("*" + " ");
+			}
+
+			for (int j = 2; j <= i; j++) {
+				// this pattern also use print star .
+
+				// - - - *
+				// - - * * *
+				// - * * * * *
+				// * * * * * * *
+
+// first check your output same than simple you remove [ - ] and 
+// add the " " space  and see your final output is ready. 
+
+//	              * 
+//		        * * * 
+//		      * * * * * 
+//		    * * * * * * * 
+
+				System.out.print("*" + " ");
+
+			}
+			System.out.println();
+// this sop used to go to next line.only.
+		}
+
+	}
+
+}
